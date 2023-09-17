@@ -1,0 +1,157 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo-img{
+    height: 80px;
+}
+
+.searchbar{
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    border-radius: 10px;
+
+}
+
+
+.search-box{
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    text-indent: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.search-icon{
+    height: 20px;
+}
+
+.Movies{
+    width: 100%;
+    padding: 50px 5%;
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 6.66%;
+    row-gap: 20px;
+}
+
+.movie{
+    width: 20%;
+    height: 400px;
+    /*background-color:red;*/
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.trailer{
+    width: 100%;
+    height: 50%;
+    /*background-color: yellow;*/
+}
+
+.details{
+    width: 100%;
+    height: 50%;
+    /*background-color:blue;*/
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+
+
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity:0;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.overlay:hover
+{
+    opacity: 1;
+}
+
+
+.poster{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
